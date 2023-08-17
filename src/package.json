@@ -1,0 +1,16 @@
+{
+  "name": "@t23/t23-lanzador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lanzador.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@t23/t23-cliente-gestor-secretos": "file:../../T23-cliente-gestor-secretos/src",
+    "@t23/t23-shared-utils": "file:../../T23-shared-utils/src",
+    "sync-request": "^6.1.0"
+  }
+}
