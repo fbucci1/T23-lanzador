@@ -146,6 +146,9 @@ function readAndLaunchApplication(laConfig){
     });
 }
 
+console.log('**********************************************************');
+console.log('**  Launcher');
+console.log('**********************************************************');
 
 console.log('++ Starting launcher');
 //
