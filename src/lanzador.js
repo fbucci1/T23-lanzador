@@ -31,8 +31,8 @@ function readSecretsFromSM(smConfig){
         return smConfig._cached_secrets;
     }
     //
-    var secretManager = require('@t23/t23-cliente-gestor-secretos');
-    var iSecretManager = secretManager.getInstance(smConfig);
+    var SecretManager = require('@t23/t23-cliente-gestor-secretos');
+    var iSecretManager = SecretManager.getInstance(smConfig);
     var data=iSecretManager.getSecrets();
     //
     // Cache the response
